@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+  
+    margin: 0;
+    outline: 0px solid transparent;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color:black;
+    align-items: center;
+}
+
+
+.background {
+    background-color: #012d8a;
+}
+#myname{
+    margin-left: -40px;
+}
+
+.nav-list {
+ width: 70%;
+    display: flex;
+    align-items: center;
+}
+.rightNav {
+    background-color:black;
+    align-items:center;
+    width: 30%;
+    margin-top: 5px;
+}
+
+.logo {
+    width: 12%;
+}
+
+.logo img {
+    margin-top: 10px;
+    max-height: 50px;
+    width:50%;
+    height: 50%;
+    max-width: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 25px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;;
+    font-weight: bold;
+    color: white;
+}
+#myname{
+    font-size: 14px;
+}
+#myname:hover{
+    font-size: 16px;
+}
+.nav-list li a:hover {
+    padding-bottom: 3px;
+    border-bottom-style: solid;
+    font-size: larger;
+}
+
+#search {
+    padding: 5px;
+    font-size: 10px;
+    margin: 20px;
+    border: 1px solid black;
+ border-radius: 3px;   
+}
+
+#search:hover {
+ font-size: 15px;
+}
+
+.btn-sm{
+    background-color:white;
+    margin-left: -20px;
+    border-radius: 50%;
+}
+.btn-sm img{
+ padding-left: 4px;
+ padding-right: 4px;
+}
+.text-big{
+
+    font-size: 50px;
+}
+.text-small
+{
+    font-size: 20px;
+}
+.box-main{
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+        align-items: center;
+        font-family: 'Roboto', sans-serif;;
+}
+.firstSection{
+    padding-top: 40px;
+    color: white;
+    height: 100%;
+}
+.firstHalf{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+.buttons{
+    margin-top: 10px;
+  
+}
+.butn{
+    cursor: pointer;
+    margin:10px;
+    border-radius: 6px;
+    padding: 4px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Roboto', sans-serif;;
+    font-weight: bold;
+    color: #012d8a;
+}
+.butn:hover{
+    font-size: 21px;
+}
+
+.secondHalf img{
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 3%;
+    max-width: 500px;
+    max-height: 500px;
+}   
+
+.resumebuttons{
+    margin-left: 140px;
+    margin-bottom: 40px;
+}
+
+
+.section{
+    padding: 50px 70px 50px 70px;
+    margin: 40px;
+    display: flex;
+    align-items: center;    
+    justify-content: space-evenly;
+    max-width: 80%;
+}
+
+.section-left{
+
+    flex-direction: row-reverse;
+}
+
+.paras
+{
+    padding:0 60px;
+}
+.footer
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #dedede;
+    color: black;
+  text-align: center;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.burger{
+    display: none;
+    position: absolute;
+    right: 25%;
+    top: 2;
+}
+
+.line{
+    visibility: none;
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn{
+    cursor: pointer;
+}
+
+.btn:hover{
+    box-shadow: 0 10px 20px  rgba(0, 0, 0, 0.2);
+}
+.btn:active {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.btn-white {
+    background-color: #fff;
+    color: #777;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -4;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1212px)
+{
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    #section1{
+       flex-direction: column;
+    }
+    #section2{
+        flex-direction: column;
+     }
+     #section3{
+        flex-direction: column;
+     }
+     .paras{
+         margin: 0;
+         padding: 0;
+     }
+
+
+    .h-nav{
+        height: 50px;
+    }
+.v-class{
+    opacity: 0;
+}
+.logo{
+    opacity: 0;
+}
+    .burger{
+        margin-right: 20px;
+        display: block;
+        margin-top: 10px;
+    }
+.thumbnail{
+    margin: 0px;
+}
+.box-main{
+    margin: 0px;
+}
+#email{
+margin-left: -10px;
+}
+
+#contact{
+    margin-right: -10px;
+}
+#view{
+    margin-right: 10%;
+margin-left: 40%;
+}
+#download{
+    margin-left: -2%;
+    margin-right: 20%;
+
+}
+.resumebuttons{
+    margin:0 0 0 -50%;
+    text-align: center;
+    padding: 0px 15px 0px 15px;
+}
+.ul{
+    float: left;
+    line-height: 0.1em;
+}
+    .nav-list{
+        
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .navbar{
+        height: 100%;
+    
+        flex-direction: column;
+    }
+    #search{
+       margin-top: 20px;
+    }
+    #search:hover{
+        font-size: 10px;
+    }
+   .text-big{
+       font-size: 30px;
+
+   }
+   .text-small{
+       font-size:15px;
+   }
+   .secondHalf img{
+    margin-left: 20px;
+       width: 70%;
+       margin-bottom: 0px;
+   }
+   .butn{
+    cursor: pointer;
+    margin: 4px;
+    border-radius: 6px;
+    padding: 4px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    font-family: 'Roboto', sans-serif;;
+    font-weight: bold;
+    color: #012d8a;
+}
+.box-main
+    {
+        flex-direction: column;
+    }
+.butn:hover{
+    font-size: 15px;
+}
+.rightNav {
+    align-items: center;
+    margin-top: -10%;
+}
+}
+
+@media only screen and (max-width: 640px)
+{
+
+    .rightNav {
+        align-items: center;
+        float: right;
+    }
+    #search{
+        margin-left: -50%;
+        font-size: 8px;
+        justify-content: center;
+    }
+    .butn{
+        font-size: 8px;
+      
+    }
+   
+    .box-main
+    {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 350px)
+{
+
+    .rightNav {
+        align-items: center;
+    }
+    #search{
+        margin-left: -80%;
+        font-size: 8px;
+        justify-content: center;
+    }
+}
