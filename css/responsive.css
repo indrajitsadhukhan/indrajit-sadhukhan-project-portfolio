@@ -1,0 +1,134 @@
+
+
+@media only screen and (max-width: 1212px)
+{
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    #section1{
+       flex-direction: column;
+    }
+    #section2{
+        flex-direction: column;
+     }
+     #section3{
+        flex-direction: column;
+     }
+     .paras{
+         margin: 0;
+         padding: 0;
+     }
+
+
+    .h-nav{
+        height: 50px;
+    }
+.v-class{
+    opacity: 0;
+}
+.logo{
+    opacity: 0;
+}
+    .burger{
+        margin-right: 20px;
+        display: block;
+        margin-top: 10px;
+    }
+.thumbnail{
+    margin: 0px;
+}
+.box-main{
+    margin: 0px;
+}
+#email{
+margin-left: -10px;
+}
+
+#contact{
+    margin-right: -10px;
+}
+#view{
+    margin-right: 10%;
+margin-left: 40%;
+}
+#download{
+    margin-left: -2%;
+    margin-right: 20%;
+
+}
+.resumebuttons{
+    margin:0 0 0 -50%;
+    text-align: center;
+    padding: 0px 15px 0px 15px;
+}
+.ul{
+    float: left;
+    line-height: 0.1em;
+}
+    .nav-list{
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .navbar{
+        height: 100%;
+        flex-direction: column;
+    }
+    #search{
+     visibility: collapse;
+    }
+    .btn-sm{
+        visibility: collapse;
+
+    }
+
+
+   .text-big{
+       font-size: 30px;
+
+   }
+   .text-small{
+       font-size:15px;
+   }
+   .secondHalf img{
+    margin-left: 20px;
+       width: 70%;
+       margin-bottom: 0px;
+   }
+   .butn{
+    cursor: pointer;
+    margin: 4px;
+    border-radius: 6px;
+    padding: 4px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Roboto', sans-serif;;
+    font-weight: bold;
+    color: #012d8a;
+}
+.box-main
+    {
+        flex-direction: column;
+    }
+.butn:hover{
+    font-size: 15px;
+}
+.btn{
+    font-size: 15px;
+}
+.btn:hover
+{
+    font-size: 15px;
+}
+.btn:active
+{
+    font-size: 15px;
+
+}
+.rightNav {
+    align-items: center;
+    margin-top: -10%;
+}
+}
