@@ -42,7 +42,11 @@ margin: 10%;
 
 }
 .github{
+    background-color: black;
+    color: white;
     font-size: 30px;
+    padding: 10px;
+    border-radius: 30px;
 }
 .githubimg{
     width: 10%;
@@ -112,8 +116,3 @@ padding: 10%;
 .row a:hover,button:hover{
     opacity: 0.6;
 }
-
-/* 
-#traffic_flow{
-    margin-left: 80%;
-} */

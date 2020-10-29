@@ -9,9 +9,110 @@
 html{
     scroll-behavior: smooth;
 }
+.heading{
+    margin:20px;
+  
+}
 .maxh{
     height: 100vh;
 
+}
+.btnimg{
+    margin-left: 10px;
+}
+.problem
+{
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.buttons1{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    margin-top: 40px;
+    margin-left: 250px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+.videos{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.video1{
+    margin: 20px;
+}
+.buttons2{
+    cursor: pointer;
+
+    background-color: black;
+    color: white;
+    font-size: 30px;
+padding: 20px;
+font-style: normal;
+font: bold;
+border-radius: 10px;
+margin-left: 100px;
+}
+.b2{
+    margin-left: -200px;
+    margin-right: -200px;
+}
+.buttons3{
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+    margin-left: 100px;
+    font-size: 30px;
+    padding: 20px;
+    font-style: normal;
+    font: bold;
+    margin-left: 100px;
+
+}
+.button2img{
+
+}
+
+
+.image{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+.table{
+margin: auto;
+}
+.image img{
+    
+    border-radius: 20px;
+    width:500px;
+margin: auto;
+margin-top: 40px;
+    align-items: center;
+    height: 300px;
+}
+.desc{
+    font-size: 20px;
+}
+.desc li{
+    font-size: 20px;
+}
+.desc img{
+  margin-bottom: -10px;
+  margin-left: 5px;
+margin-right: 5px;
+}
+.desc a{
+    text-decoration: none;
+    color: blue;
+}
+
+.desc a:hover{
+    text-decoration: underline;
+    color: blue;
 }
 .navbar {
     width: 100%;
