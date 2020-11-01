@@ -1,41 +1,230 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <title>Employee Manager Android Application</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <nav class="navbar h-nav">
-            <ul class="nav-list h-nav v-class">
-                <div class="logo"><img  src="img/IndrajitSadhukhan.jpg" alt="logo"></div>
-                <li><a class="active" href="#about" id="myname">Indrajit Sadhukhan</a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a>
-                </li>
-    
-                <li><a href="https://github.com/indrajitsadhukhan?tab=repositories" target="_blank">Github</a></li>
-                <li><a href="#education ">Education</a></li>
-                <li><a href="#about ">About</a></li>
-            </ul>
-            <div class="rightNav v-class">
-                <input type="text" placeholder="Search" name="search" id="search">
-                <button class="btn  btn-sm"><img src="img/search.png" height="10px" width="10px"></button>
-                </div>
-                <div class="burger">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-            </div>
-        </nav>
-        <script src="js/resp.js"></script>
 
-    </body>
-    <footer class="footer">Designed and developed by Indrajit Sadhukhan</footer>
+<head>
+    <link rel = "icon" href ="img/website_icon.png" type = "image/x-icon"> 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Employee Manager Android Application</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <nav class="navbar h-nav">
+        <ul class="nav-list h-nav v-class">
+            <div class="logo"><img src="img/IndrajitSadhukhan.jpg" alt="logo"></div>
+            <li><a class="active" href="#about" id="myname">Indrajit Sadhukhan</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a>
+            </li>
+
+            <li><a href="https://github.com/indrajitsadhukhan?tab=repositories" target="_blank">Github</a></li>
+            <li><a href="#education ">Education</a></li>
+            <li><a href="#about ">About</a></li>
+        </ul>
+        <div class="rightNav v-class">
+            <input type="text" placeholder="Search" name="search" id="search">
+            <button class="btn  btn-sm"><img src="img/search.png" height="10px" width="10px"></button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <h1 style="text-align: center;margin-top: 20px; margin-bottom: 10px;">Employee Manager Android Application</h1>
+    <div class="section">
+        <div class="firstHalf">
+            <div class="desc" style="margin-left: 20px;">
+                This project is built for android and it has two applications.
+                <br>
+                1. EmployeeAdmin
+                <br>
+                2. EmployeeUser
+                <br>
+                <br>
+                <h3>EmployeeAdmin</h3>
+
+                This application has the following functionalities:
+                <br>
+                1. Upload/Delete Notice
+                <br>
+                2. Upload Ebook
+                <br>
+                3. Update/Delete Employee
+                <br>
+                <br>
+
+                <h3>EmployeeUser</h3>
+
+                This application has the following functionalities
+                <br>
+                1. View Notice
+                <br>
+                2. View Other Employees
+                <br>
+                3. View All Ebooks
+                <br>
+                4. Read/Download PDFs inside the application.
+                <br>
+
+
+            </div>
+        </div>
+     
+        <div class="secondHalf" style="margin-left: 100px; margin-right: -200px;">
+            <div class="secondHalf1" style="width: 20%; height: 100%; margin-right: 60px;">
+<img src="img/EmployeeUser.jpeg" style="border: 3px solid #9ca19d;" alt="">
+</div>
+<div class="secondHalf2" style="width: 30%;">
+<img src="img/EmployeeAdmin.jpeg" style="border: 3px solid #9ca19d;" height="100%" width="20%" alt="">
+</div>
+</div>
+
+    </div>
+
+    <div class="buttons1">
+        <a href="https://github.com/indrajitsadhukhan/Improving-traffic-flow-in-a-single-intersection-using-data-from-its-neighbouring-intersections" target="_blank">
+    <button class="buttons2">Open Source code in Github<img class="btnimg" height="5%" width="5%" src="img/github.png"></button>
+    </a>
+    <a href="res/Traffic Flow/trafficflow.zip" download>
+    <button class="buttons2"> <div class="b2">Download Source code (.zip)<img class="btnimg"    height="3%" width="3%" src="img/download.png"></div></button>
+    </a>
+    <button class="buttons2"> <div class="b2">Download apk file (.apk)<img class="btnimg" height="3%" width="3%" src="img/download.png"></div></button>
+
+    </div>
+    <hr>
+    <h1 style="text-align: center;">Features of EmployeeAdmin</h1>
+
+<div class="section">
+    <h2 style="text-align: center;">1. Upload Notice</h2>
+
+    <div class="firstHalf">
+        <div class="desc" style="margin-left: 20px;">   
+Upload an image of notice and give it a title.
+<br>
+It will store the notice in FirebaseStorage to display the notices in EmployeeUser application.
+</div>
+</div>
+<div class="secondHalf" style="width: 20%;">
+    <img style="border: 3px solid #9ca19d;" src="img/upload_notice.jpeg" alt="">
+</div>
+</div>
+
+<hr>
+
+
+
+<div class="section">
+    <h2 style="text-align: center;">2. Delete Notice</h2>
+
+    <div class="firstHalf">
+        <div class="desc" style="margin-left: 20px;">   
+This activity has a button to delete a notice that was previously uploaded.
+<br>
+It will delete the notice from FirebaseStorage.
+</div>
+</div>
+<div class="secondHalf" style="width: 20%;">
+    <img style="border: 3px solid #9ca19d;" src="img/delete_notice.jpeg" alt="">
+</div>
+</div>
+
+<hr>
+
+
+
+<div class="section">
+    <h2 style="text-align: center;">3. Upload Ebook</h2>
+
+    <div class="firstHalf">
+        <div class="desc" style="margin-left: 20px;">   
+Upload a PDF with a title. That stores the PDF File to FirebaseStorage and its corresponding title.
+</div>
+</div>
+<div class="secondHalf" style="width: 20%;">
+    <img style="border: 3px solid #9ca19d;" src="img/upload_pdf.jpeg" alt="">
+</div>
+</div>
+
+<hr>
+
+<div class="section">
+    <h2 style="text-align: center;">4. Add Employee</h2>
+
+    <div class="firstHalf">
+        <div class="desc" style="margin-left: 20px;">   
+On clicking the FloatingAction Button it opens an activity where we can insert a new record of the employee with his/her image.
+
+</div>
+</div>
+<div class="secondHalf" style="width: 20%;">
+    <img style="border: 3px solid #9ca19d;" src="img/add_employee.jpeg" alt="">
+</div>
+<div class="secondHalf" style="width: 20%;">
+    <img style="border: 3px solid #9ca19d;" src="img/update_employee.jpeg" alt="">
+</div>
+
+</div>
+
+
+<hr>
+
+<div class="section">
+    <h2 style="text-align: center;">5. Update / Delete Employee</h2>
+
+    <div class="firstHalf">
+        <div class="desc" style="margin-left: 20px;">   
+On clicking "UPDATE INFO" button it opens a new activity where we can edit any field of record of an employee and click on "UPDATE" button to update the record.
+<br>
+We can also click on "DELETE" button to delete the record of that employee.
+</div>
+</div>
+<div class="secondHalf" style="width: 20%;">
+    <img style="border: 3px solid #9ca19d;" src="img/delete_employee.jpeg" alt="">
+</div>
+<div class="secondHalf" style="width: 20%;">
+    <img style="border: 3px solid #9ca19d;" src="img/update_employee.jpeg" alt="">
+</div>
+
+</div>
+
+
+<h1 style="text-align: center;">Features of EmployeeUser</h1>
+
+
+<div class="section">
+    <h2 style="text-align: center;">1. View Notice</h2>
+
+    <div class="firstHalf">
+        <div class="desc" style="margin-left: 20px;">   
+It will display all the notices with upload date/time uploaded till date to FirebaseStorage.
+</div>
+</div>
+<div class="secondHalf" style="width: 20%;">
+    <img style="border: 3px solid #9ca19d;" src="img/upload_notice.jpeg" alt="">
+</div>
+</div>
+
+
+    <script src="js/resp.js"></script>
+
+    <div class="buttons1">
+        <a href="https://github.com/indrajitsadhukhan/Improving-traffic-flow-in-a-single-intersection-using-data-from-its-neighbouring-intersections" target="_blank">
+    <button class="buttons2">Open Source code in Github<img class="btnimg" height="5%" width="5%" src="img/github.png"></button>
+    </a>
+    <a href="res/Traffic Flow/trafficflow.zip" download>
+    <button class="buttons2"> <div class="b2">Download Source code (.zip)<img class="btnimg" height="3%" width="3%" src="img/download.png"></div></button>
+    </a>
+    <button class="buttons2"> <div class="b3">Download apk file (.apk)<img class="btnimg" height="3%" width="3%" src="img/download.png"></div></button>
+
+    </div>
+   
+</body>
+<footer class="footer">Designed and developed by Indrajit Sadhukhan</footer>
 
 </html>

@@ -28,16 +28,37 @@ html{
 .buttons1{
     display: flex;
     flex-direction: row;
+    align-items: center;
+
+}
+.buttons1 a{
+    text-decoration: none;
+}
+.buttons2 a{
+    text-decoration: none;
+}
+.buttons2{
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: row;
     align-content: space-between;
-    margin-top: 40px;
-    margin-left: 250px;
-    margin-right: 100px;
-    margin-bottom: 40px;
+margin-bottom: 30px;
+margin-right: 20px;
 }
 .videos{
     display: flex;
     flex-direction: row;
     margin: 20px;
+}
+.buttons10{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.buttons11{
+    width: 50%;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .video1{
     margin: 20px;
@@ -47,17 +68,17 @@ html{
 
     background-color: black;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
 padding: 20px;
 font-style: normal;
 font: bold;
 border-radius: 10px;
-margin-left: 100px;
+margin-left: 50px;
 }
 .b2{
-    margin-left: -200px;
-    margin-right: -200px;
+  
 }
+
 .buttons3{
     border-radius: 20px;
     background-color: black;
@@ -75,7 +96,18 @@ margin-left: 100px;
 .button2img{
 
 }
+.section{
+    display: flex;
+    flex-direction: row;
+}
+.secondHalf{
+    display: flex;
+    flex-direction: row;
+}
 
+.firstHalf{
+
+}
 
 .image{
     display: flex;
@@ -95,11 +127,13 @@ margin-top: 40px;
     height: 300px;
 }
 .desc{
+   
     font-size: 20px;
 }
 .desc li{
     font-size: 20px;
 }
+
 .desc img{
   margin-bottom: -10px;
   margin-left: 5px;
@@ -247,7 +281,7 @@ margin-right: 5px;
     font-size: 21px;
 }
 
-.secondHalf img{
+.secondHalf0 img{
     height: 100%;
     width: 100%;
     margin: 10px;
@@ -256,6 +290,16 @@ margin-right: 5px;
     max-width: 500px;
     max-height: 500px;
 }   
+
+.secondHalf img{
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+    border: 2px transparent;
+    border-radius: 3%;
+    max-width: 500px;
+    max-height: 500px;
+} 
 
 .resumebuttons{
     margin-left: 140px;
