@@ -96,7 +96,26 @@ margin-left: 50px;
 .button2img{
 
 }
+.project-name{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.thumbnail{
+
+}
+
+.thumbnail img
+{
+height: 80%;
+width: 100%;
+}
+.sectionsubTag
+{
+font-size: 25px;
+}
 .section{
+    align-content: space-between;
     display: flex;
     flex-direction: row;
 }
@@ -306,7 +325,11 @@ margin-right: 5px;
     margin-bottom: 40px;
 }
 
+.videos2{
+    height: 100%;
+    width: 100%;
 
+}
 .section{
     padding: 50px 70px 50px 70px;
     margin: 40px;
@@ -318,12 +341,13 @@ margin-right: 5px;
 
 .section-left{
 
-    flex-direction: row-reverse;
 }
 
 .paras
 {
     padding:0 60px;
+    width: 130%;
+   
 }
 .footer
 {
